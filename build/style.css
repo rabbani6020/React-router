@@ -1,0 +1,49 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.menu {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   min-height: 200px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   background-color: aqua;
+}
+
+.menu__link {
+   color: #000;
+   font-size: 30px;
+   font-weight: bold;
+}
+.footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 200px;
+   background-color: tomato;
+}
+
+.common-div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 600px;
+   background-color: gray;
+}
+.common-div.home-page {
+   background-color: khaki;
+}
+.common-div.about-page {
+   background-color: teal;
+}
+.common-div.contact-page {
+   background-color: tan;
+}
+.common-div.HomePart2-page{
+   background-color: antiquewhite;
+}
